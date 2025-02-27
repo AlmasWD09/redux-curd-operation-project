@@ -13,17 +13,18 @@ const router = createBrowserRouter([
                 path: "/",
                 element: <Home />,
             },
+            {
+                path: "/edit-user",
+                element: <EditUser />,
+            },
+            {
+                path: "/user-list",
+                element: <UserList />,
+            },
 
         ],
     },
-    {
-        path: "/edit-user",
-        element: <EditUser />,
-    },
-    {
-        path: "/user-list",
-        element: <UserList />,
-    },
+
 ]);
 
 export default router;
